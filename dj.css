@@ -1,0 +1,276 @@
+nav ul {
+  width:100%;
+  position:fixed;
+  list-style-type: none;
+  margin: 10px;
+  padding: 1px;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0, 0.8);
+  font-size: 20px;
+  outline: red solid 1px;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: aqua;
+  color:black
+}
+
+header {
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0, 0.5), black);
+  color: white;
+  float: center;
+  font-size: 70px;
+  font-family: trebuchet ms;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+  margin: 10px;
+  clear: both 
+  -webkit-animation-name: header; 
+  -webkit-animation-duration: 5s; 
+  animation-name: header;
+  animation-duration: 10s;
+}
+@-webkit-keyframes header {
+  from {  letter-spacing: 15px;
+}
+  to {letter-spacing: 1px;
+}
+}
+
+iframe{
+  margin:10px;
+  float: center;
+}
+
+h1{
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0, 0.5), black);
+  color: pink;
+  float: center;
+  font-size: 40px;
+  font-family: trebuchet ms;
+  text-align: center;
+  padding: 30px;
+  width: 50%;
+  margin: 10px;
+  clear: both
+-webkit-transition: width 2s;  transition: width 2s;
+}
+
+h1:hover{
+  width: 800px;
+}
+h2{
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0, 0.5), black);
+  border-style:solid;
+  color: white;
+  float: center;
+  font-size: 40px;
+  font-family: trebuchet ms;
+  text-align: center;
+  padding: 30px;
+  width: 70%;
+  margin: 10px;
+  clear: both
+-webkit-transition: width 2s;  transition: width 2s;
+}
+
+h2:hover{
+  width: 900px;
+}
+h3{
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0, 0.5), black);
+  border-style:solid;
+  color: white;
+  float: center;
+  font-size: 40px;
+  font-family: trebuchet ms;
+  text-align: center;
+  padding: 30px;
+  width: 70%;
+  margin: 10px;
+  clear: both
+-webkit-transition: width 2s;  transition: width 2s;
+}
+
+figure {
+  float: center;
+  font-size: 2.0em;
+  font-family: brandongrotesque;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 10px;
+  color: white;
+  width: 100%;
+  border: solid;
+  margin:10px;
+}
+section {
+  word-wrap: break-word;
+  border-style: solid;
+  line-height: 2;
+  height:auto;
+  width:100%;
+  float: left;
+  padding: 20px;
+  background-color: rgb(0, 0, 0, 0.9);
+  color: white;
+  font-size: 22px;
+  margin: 10px;
+  clear: both;
+  line-height: 1.5;
+}
+aside {
+  border-style: solid;
+  margin: 20px;
+  padding: 10px;
+  outline:double;
+  width:45%;
+  background-color: rgb(0, 0, 0, 0.5);
+  color: white;
+  font-size: 20px;
+  resize: both;
+  overflow: auto;
+}
+summary {
+  float: right;
+  text-algin: right;
+  padding: 10px;
+  width: 45%;
+  background-color: rgb(0, 0, 0, 0.9);
+  height: px;
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+  line-height: 1.5;
+   resize: vertical;
+  overflow: auto;
+}
+
+footer {
+  color: darkblue;
+  float: center;
+  font-size: 40px;
+  font-family: brandongrotesque;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 30px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin: 10px;
+  -webkit-animation-name: example; 
+  -webkit-animation-duration: 4s; 
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+
+.b:link, a:visited {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.b:hover, a:active {
+  background-color: dodgerblue;
+}
+
+body {
+      background-image: url("https://bit.ly/2IZt1Z9");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+} 
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 30%;
+  float: left
+}
+.gallery:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=50);
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  float: center;
+}
+
+.crop {
+    width: 400px;
+    margin: -200px 0 0  0 ;
+  padding: 0 0 0 50px;
+}
+
+.contact{
+  outline:red solid 1px;
+  width:100%;
+   clear: both;
+  position:fixed;
+  float: center;
+  font-size: 80%;
+  font-family: verdana;
+  text-align: center;
+  background-color:rgb(0, 0, 0, 0.8);;
+  padding:10px;
+  text-align: center;
+  color: white;
+  margin:10px
+}
+.pricing
+{word-wrap: break-word;
+  border-style: solid;
+  line-height: 2;
+  height:auto;
+  width:50%;
+  float: center;
+  padding: 20px;
+  background-color: rgb(0, 0, 0, .9);
+  color: white;
+  font-size: 22px;
+  margin: 10px;
+  clear: both;
+  line-height: 1.5;
+}
+
+li {list-style-type: none;
+font-size: 16pt;
+}
+.mail {
+margin: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 400px;
+background : black;
+border: 1px soild silver;
+}
+.mail h3 {
+margin-left: 38px;
+}
+input {
+font-size: 20pt;
+}
+input:focus, textarea:focus{
+background-color: lightyellow;
+}
+input submit {
+font-size: 12pt;
+}
+.rq {
+color: #FF0000;
+font-size: 10pt;
+}
